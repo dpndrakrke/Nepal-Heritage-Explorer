@@ -1,0 +1,35 @@
+{
+  "name": "nepal-heritage-explorer",
+  "version": "1.0.0",
+  "description": "Nepal Heritage Explorer - Full Stack Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha supertest.js --timeout 30000",
+    "test:quick": "mocha supertest.js --grep 'Test [1-5]' --timeout 30000",
+    "test:auth": "mocha supertest.js --grep 'Test [2-4]' --timeout 30000",
+    "test:heritage": "mocha supertest.js --grep 'Test [5-6]' --timeout 30000",
+    "test:admin": "mocha supertest.js --grep 'Test 8' --timeout 30000",
+    "test:performance": "mocha supertest.js --grep 'Test 10' --timeout 30000",
+    "start": "cd backend && npm start",
+    "dev": "cd frontend && npm run dev",
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install"
+  },
+  "keywords": [
+    "heritage",
+    "nepal",
+    "react",
+    "nodejs",
+    "mysql",
+    "test"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.10.0",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

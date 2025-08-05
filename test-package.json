@@ -1,0 +1,32 @@
+{
+  "name": "nepal-heritage-explorer-tests",
+  "version": "1.0.0",
+  "description": "Super Test Suite for Nepal Heritage Explorer",
+  "main": "supertest.js",
+  "scripts": {
+    "test": "mocha supertest.js --timeout 30000",
+    "test:auth": "mocha supertest.js --grep 'Authentication' --timeout 30000",
+    "test:heritage": "mocha supertest.js --grep 'Heritage Sites' --timeout 30000",
+    "test:admin": "mocha supertest.js --grep 'Admin Features' --timeout 30000",
+    "test:user": "mocha supertest.js --grep 'User Features' --timeout 30000",
+    "test:performance": "mocha supertest.js --grep 'Performance' --timeout 30000"
+  },
+  "keywords": [
+    "test",
+    "heritage",
+    "nepal",
+    "api",
+    "mocha",
+    "chai"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.10.0",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+} 
