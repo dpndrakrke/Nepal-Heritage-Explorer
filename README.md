@@ -265,4 +265,4 @@ For support, please create an issue in the repository or contact the development
 
 ---
 
-**Nepal Heritage Explorer** - Discover the rich heritage of Nepal! 🏛️🇳🇵 
+**Nepal Heritage Explorer** - Discover the rich heritage of Nepal! 🏛️🇳🇵
